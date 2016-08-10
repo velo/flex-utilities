@@ -24,7 +24,7 @@ public class IdHelper
         macSum[5] = (byte) ((macSum[5] + mac[5]) % 256);
       }
     }
-    System.out.println(Integer.toHexString(Arrays.hashCode(macSum)));
+    System.out.print(Integer.toHexString(Arrays.hashCode(macSum)));
   }
 
 }
